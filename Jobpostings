@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC Recruiting Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .main-section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero-section {
+            background-color: #333;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .hero-section p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .services-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .services-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .services-section .services-list {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .services-section .services-item {
+            width: 30%;
+            text-align: left;
+        }
+        .services-section .services-item img {
+            max-width: 100%;
+        }
+        .services-section .services-item h3 {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .services-section .services-item p {
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+        <div class="hero-section">
+            <h1>Welcome to ABC Recruiting Agency</h1>
+            <p>We help companies find and hire top talent</p>
+        </div>
+        <div class="services-section">
+            <h2>Our Services</h2>
+            <div class="services-list">
+                <div class="services-item">
+                    <img src="https://via.placeholder.com/150x150" alt="Resume Building">
+                    <h3>Resume Building</h3>
+                    <p>We offer personalized resume building services to help candidates create professional and effective resumes that showcase their skills and experience.</p>
+                </div>
+                <div class="services-item" href = "Job Postings">
+                    <img src="https://via.placeholder.com/150x150" alt="Job Posting">
+                    <h3>Job Posting</h3>
+                    <p>We will create and post job listings on popular job boards and social media platforms to reach a wide audience of potential candidates.</p>
+                </div>
+                <div class="services-item">
+                    <img src="https://via.placeholder.com/150x150" alt="Interviewing">
+                    <h3>Interviewing</h3>
+                    <p>We will conduct initial interviews with candidates to assess their qualifications and fit for the position.</p>
+                </div>
